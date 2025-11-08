@@ -1,6 +1,6 @@
 {
   "name": "outil-de-migration-de-code-legacy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Outil pour migrer le code hérité",
   "main": "index.js",
   "scripts": {
