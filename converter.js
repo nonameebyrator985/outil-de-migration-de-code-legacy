@@ -1,7 +1,7 @@
 function convertCode(oldCode) {
-    // Logique de conversion du code ancien ici
+    // Logic for converting old code here
     console.log(`Conversion du code : ${oldCode}`);
-    // Simuler une conversion
+    // Simulate a conversion
     return 'nouveauCode';
 }
 
