@@ -1,0 +1,13 @@
+{
+  "name": "outil-de-migration-de-code-legacy",
+  "version": "1.0.0",
+  "description": "Outil pour migrer le code hérité",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "commander": "^7.2.0"
+  },
+  "license": "MIT"
+}
