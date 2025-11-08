@@ -9,7 +9,7 @@ program
   .action((options) => {
     const sourcePath = options.source;
     if (!sourcePath) {
-      console.error('Le chemin source est requis.');
+      console.error('Veuillez fournir un chemin source valide.');
       process.exit(1);
     }
     console.log(`Analyse du code dans ${sourcePath}...`);
