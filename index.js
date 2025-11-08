@@ -8,7 +8,7 @@ program
   .option('--source <path>', 'path to the code to migrate')
   .action((options) => {
     const sourcePath = options.source;
-    if (!sourcePath) {
+    if (!sourcePath || sourcePath.trim() === '') {
       console.error('Please provide a valid source path.');
       process.exit(1);
     }
