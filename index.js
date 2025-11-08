@@ -4,7 +4,7 @@ const program = new commander.Command();
 
 program
   .version('1.0.0')
-  .description('Outil de migration de code héritée')
+  .description('Outil de migration de code hérité')
   .option('--source <path>', 'chemin vers le code à migrer')
   .action((options) => {
     const sourcePath = options.source;
